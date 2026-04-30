@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="DapperEMS.API/DapperEMS.API.csproj" />
+  <Project Path="DapperEMS.Application/DapperEMS.Application.csproj" />
+  <Project Path="DapperEMS.Domain/DapperEMS.Domain.csproj" />
+  <Project Path="DapperEMS.Infrastructure/DapperEMS.Infrastructure.csproj" />
+</Solution>
