@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DapperEMS.Application.DTOs
+namespace DapperEMS.Application.DTOs.Employee
 {
-    public class CreateEmployeeDto
+    public class UpdateEmployeeDto
     {
         public string Name { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;

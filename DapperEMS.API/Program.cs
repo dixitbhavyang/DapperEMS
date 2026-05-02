@@ -1,7 +1,10 @@
-using DapperEMS.Application.Interfaces;
-using DapperEMS.Application.Services;
+using DapperEMS.Application.Interfaces.Department;
+using DapperEMS.Application.Interfaces.Employee;
+using DapperEMS.Application.Services.Department;
+using DapperEMS.Application.Services.Employee;
 using DapperEMS.Infrastructure.Data;
-using DapperEMS.Infrastructure.Repositories;
+using DapperEMS.Infrastructure.Repositories.Department;
+using DapperEMS.Infrastructure.Repositories.Employee;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +15,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<DapperContext>();
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
+builder.Services.AddScoped<IDepartmentService, DepartmentService>();
 
 var app = builder.Build();
 

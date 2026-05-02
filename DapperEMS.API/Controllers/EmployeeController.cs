@@ -1,5 +1,5 @@
-﻿using DapperEMS.Application.DTOs;
-using DapperEMS.Application.Interfaces;
+﻿using DapperEMS.Application.DTOs.Employee;
+using DapperEMS.Application.Interfaces.Employee;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DapperEMS.API.Controllers;

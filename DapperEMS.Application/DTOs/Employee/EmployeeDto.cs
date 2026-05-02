@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DapperEMS.Application.DTOs
+namespace DapperEMS.Application.DTOs.Employee
 {
     public class EmployeeDto
     {

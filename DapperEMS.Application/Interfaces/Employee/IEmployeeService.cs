@@ -1,11 +1,11 @@
-﻿using DapperEMS.Application.DTOs;
+﻿using DapperEMS.Application.DTOs.Employee;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DapperEMS.Application.Interfaces
+namespace DapperEMS.Application.Interfaces.Employee
 {
-    public interface IEmployeeRepository
+    public interface IEmployeeService
     {
         Task<IEnumerable<EmployeeDto>> GetAllAsync();
         Task<EmployeeDto?> GetByIdAsync(int id);

@@ -1,12 +1,12 @@
 ﻿using Dapper;
-using DapperEMS.Application.DTOs;
-using DapperEMS.Application.Interfaces;
+using DapperEMS.Application.DTOs.Employee;
+using DapperEMS.Application.Interfaces.Employee;
 using DapperEMS.Infrastructure.Data;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DapperEMS.Infrastructure.Repositories
+namespace DapperEMS.Infrastructure.Repositories.Employee
 {
     public class EmployeeRepository : IEmployeeRepository
     {
